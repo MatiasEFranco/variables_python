@@ -7,7 +7,7 @@
 # Ejemplos varialbles numéricas (números enteros --> int)
 numero_1 = 2
 numero_2 = 4
-
+print(numero)
 suma = numero_1 + numero_2   # Operamos la suma
 # Imprimimos en consola el resultado
 print('El resultado de la suma es', suma)
@@ -17,7 +17,7 @@ resta = numero_1 - numero_2  # Operamos la resta
 # Imprimimos en consola el resultado con dos métodos distintos
 print('El resultado de restar', numero_1, 'y', numero_2, 'es', resta)
 
-# ¿Qué sucede si una variable no fue definida e intento imprimir su valor?
+# ¿Qué sucede si una variable no fue definida e intento imprimir su valor? 
 # print('El valor de numero es',numero)
 
 # Ahora realizaremos ejemplos con números decimales --> float

@@ -11,6 +11,8 @@
 
 # Ingrese tres palabras y arme un acrónimo con ellas
 # Si desea puede modificar el código para ingresar más palabras
+print("Formando Acronimos \n")
+
 print('Ingrese palabra 1:')
 palabra_1 = str(input())
 
@@ -23,3 +25,9 @@ palabra_3 = str(input())
 # De cada palabra debe tomar la primera letra y armar el acrónimo
 # Ejemplo: Alumbrado, barrido y limpieza --> ABL
 # Imprimir el resultado en pantalla
+
+acronimo=palabra_1[0]+palabra_2[0]+palabra_3[0]
+
+print("El acronimo formado por las tres palabras ingresadas es: ", acronimo)
+
+print("Fin del Programa")

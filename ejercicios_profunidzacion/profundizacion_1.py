@@ -31,3 +31,40 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+num1=float(input("Por favor, ingrese el primer valor: "))
+num2=float(input("Por favor, ingrese el segundo valor: "))
+print('''Que operacion desea realizar?
+ A) Suma
+ B) Resta
+ C) Multiplicación
+ D) División
+ E) Exponente/Potencia''')
+
+operador=input("Ingrese la letra de la que corresponde a la operacion que desea realizar: ")
+
+if operador.lower() == "a":
+  
+  print("La suma es ", num1+num2)
+
+elif operador.lower() == "b":
+
+    print("La resta es ", num1-num2)
+
+elif operador.lower() == "c":
+
+    print("La multiplicacion es ", num1*num2)
+
+elif operador.lower() == "d":
+
+    print("La division de ", num1, " sobre ", num2, " es ",  num1//num2)
+
+elif operador.lower() == "e":
+
+    print("La Potencia de ", num1, " elevado a ", num2, " es ", num1**num2 )
+
+else :
+
+  print("Error, no se ingreso una operacion valida")
+
+print("Fin del Programa")
